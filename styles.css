@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    width: 600px;
+    height: 340px;
+    background: black;
+    background-image: url("space.avif");
+    background-image: image-set(url("space.avif") type("image/.avif")),
+                               (url("space.webp") type("image/.webp")),
+                               (url("space.jpg") type("image/.jpg"));
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#count-el {
+    font-size: 50px;
+}
+
+button {
+    background: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: 0px solid darkblue;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+#save-btn {
+    background-color: lightcyan;
+    color: darkblue;
+}
+
+p {
+    color: darkblue;
+    font-size: 24px;
+}
