@@ -3,10 +3,10 @@ body {
     width: 600px;
     height: 340px;
     background: black;
-    background-image: url("space.avif");
-    background-image: image-set(url("space.avif") type("image/.avif")),
-                               (url("space.webp") type("image/.webp")),
-                               (url("space.jpg") type("image/.jpg"));
+    background-image: url("/images/space.avif");
+    background-image: image-set(url("/images/space.avif") type("image/.avif")),
+                               (url("/images/space.webp") type("image/.webp")),
+                               (url("/images/space.jpg") type("image/.jpg"));
     background-repeat: no-repeat;
     background-position: center;
     color: whitesmoke;
